@@ -10,7 +10,7 @@ RSpec.describe "A Styled IceBreakers Homepage" do
   end
 
   context 'General' do
-    it 'has a global selector to set font-family of "Helvetica", "Arial", "san-serif"' do
+    it 'has a global selector to set font-family of "Helvetica", "Arial", "sans-serif"' do
       css = parse_css_from_file("./style.css")
       global = css["*"]
 
@@ -18,7 +18,7 @@ RSpec.describe "A Styled IceBreakers Homepage" do
       
       expect(global["font-family"]).to match(/Helvetica/i)
       expect(global["font-family"]).to match(/Arial/i)
-      expect(global["font-family"]).to match(/san-serif/i)
+      expect(global["font-family"]).to match(/sans-serif/i)
     end
 
     it 'has a body selector to make the left and right padding of the page 30px' do
