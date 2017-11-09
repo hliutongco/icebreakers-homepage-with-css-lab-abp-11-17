@@ -9,7 +9,7 @@ body {
 
 header {
   height: 100px;
-  border-bottom: solid 1px #CCC;
+  border-bottom: 1px solid #CCC;
 }
 
 header nav {
@@ -101,7 +101,7 @@ div.questions a.btn:hover {
 }
 
 footer {
-  border-top: solid 1px #CCC;
+  border-top: 1px solid #CCC;
   margin-top: 80px;
   padding-top: 20px;
   color: #CCC;
