@@ -1,0 +1,18 @@
+* {
+  font-style: "Helvetica", "Arial", "sans-serif";
+}
+
+body {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+header {
+  height: 100px;
+  border-bottom: solid 1px #CCC;
+}
+
+header nav {
+  float: right;
+}
+
