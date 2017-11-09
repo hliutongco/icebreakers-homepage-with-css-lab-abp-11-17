@@ -31,3 +31,26 @@ nav a {
   color: #007bff;
   font-size: 18px;
 }
+
+nav a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+#header {
+  float: left;
+  font-size: 30px;
+}
+
+#header a {
+  color: #868e96;
+  text-decoration: none;
+}
+
+#header a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 20px;
+}
